@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <title>nknight</title>
+  </head>
+  <body>
+    <div id="menu">
+
+    </div>
+    <div id="board" class="container-fluid" style="font-size:1.2em">
+      <div id="row8" class="row">
+        <div id="a8" class="col-sm">{{ a8 }}</div>
+        <div id="b8" class="col-sm">{{ b8 }}</div>
+        <div id="c8" class="col-sm">{{ c8 }}</div>
+        <div id="d8" class="col-sm">{{ d8 }}</div>
+        <div id="e8" class="col-sm">{{ e8 }}</div>
+        <div id="f8" class="col-sm">{{ f8 }}</div>
+        <div id="g8" class="col-sm">{{ g8 }}</div>
+        <div id="h8" class="col-sm">{{ h8 }}</div>
+      </div>
+      <div id="row7" class="row">
+        <div id="a7" class="col-sm">{{ a7 }}</div>
+        <div id="b7" class="col-sm">{{ b7 }}</div>
+        <div id="c7" class="col-sm">{{ c7 }}</div>
+        <div id="d7" class="col-sm">{{ d7 }}</div>
+        <div id="e7" class="col-sm">{{ e7 }}</div>
+        <div id="f7" class="col-sm">{{ f7 }}</div>
+        <div id="g7" class="col-sm">{{ g7 }}</div>
+        <div id="h7" class="col-sm">{{ h7 }}</div>
+      </div>
+      <div id="row6" class="row">
+        <div id="a6" class="col-sm">{{ a6 }}</div>
+        <div id="b6" class="col-sm">{{ b6 }}</div>
+        <div id="c6" class="col-sm">{{ c6 }}</div>
+        <div id="d6" class="col-sm">{{ d6 }}</div>
+        <div id="e6" class="col-sm">{{ e6 }}</div>
+        <div id="f6" class="col-sm">{{ f6 }}</div>
+        <div id="g6" class="col-sm">{{ g6 }}</div>
+        <div id="h6" class="col-sm">{{ h6 }}</div>
+      </div>
+      <div id="row5" class="row">
+        <div id="a5" class="col-sm">{{ a5 }}</div>
+        <div id="b5" class="col-sm">{{ b5 }}</div>
+        <div id="c5" class="col-sm">{{ c5 }}</div>
+        <div id="d5" class="col-sm">{{ d5 }}</div>
+        <div id="e5" class="col-sm">{{ e5 }}</div>
+        <div id="f5" class="col-sm">{{ f5 }}</div>
+        <div id="g5" class="col-sm">{{ g5 }}</div>
+        <div id="h5" class="col-sm">{{ h5 }}</div>
+      </div>
+      <div id="row4" class="row">
+        <div id="a4" class="col-sm">{{ a4 }}</div>
+        <div id="b4" class="col-sm">{{ b4 }}</div>
+        <div id="c4" class="col-sm">{{ c4 }}</div>
+        <div id="d4" class="col-sm">{{ d4 }}</div>
+        <div id="e4" class="col-sm">{{ e4 }}</div>
+        <div id="f4" class="col-sm">{{ f4 }}</div>
+        <div id="g4" class="col-sm">{{ g4 }}</div>
+        <div id="h4" class="col-sm">{{ h4 }}</div>
+      </div>
+      <div id="row3" class="row">
+        <div id="a3" class="col-sm">{{ a3 }}</div>
+        <div id="b3" class="col-sm">{{ b3 }}</div>
+        <div id="c3" class="col-sm">{{ c3 }}</div>
+        <div id="d3" class="col-sm">{{ d3 }}</div>
+        <div id="e3" class="col-sm">{{ e3 }}</div>
+        <div id="f3" class="col-sm">{{ f3 }}</div>
+        <div id="g3" class="col-sm">{{ g3 }}</div>
+        <div id="h3" class="col-sm">{{ h3 }}</div>
+      </div>
+      <div id="row2" class="row">
+        <div id="a2" class="col-sm">{{ a2 }}</div>
+        <div id="b2" class="col-sm">{{ b2 }}</div>
+        <div id="c2" class="col-sm">{{ c2 }}</div>
+        <div id="d2" class="col-sm">{{ d2 }}</div>
+        <div id="e2" class="col-sm">{{ e2 }}</div>
+        <div id="f2" class="col-sm">{{ f2 }}</div>
+        <div id="g2" class="col-sm">{{ g2 }}</div>
+        <div id="h2" class="col-sm">{{ h2 }}</div>
+      </div>
+      <div id="row1" class="row">
+        <div id="a1" class="col-sm">{{ a1 }}</div>
+        <div id="b1" class="col-sm">{{ b1 }}</div>
+        <div id="c1" class="col-sm">{{ c1 }}</div>
+        <div id="d1" class="col-sm">{{ d1 }}</div>
+        <div id="e1" class="col-sm">{{ e1 }}</div>
+        <div id="f1" class="col-sm">{{ f1 }}</div>
+        <div id="g1" class="col-sm">{{ g1 }}</div>
+        <div id="h1" class="col-sm">{{ h1 }}</div>
+      </div>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
